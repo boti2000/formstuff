@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>My Form</title>
+</head>
+<body>
+    <form id="my-form" name="myForm" action="#" onsubmit="event.preventDefault(); formValidation();">
+        <div id="msg">Thank you for contacting us, </div>
+        <input type="text" name="fname" id="first-name" placeholder="First Name"> <br>
+        <input type="text" name="lname" id="last-name" placeholder="Last Name"> <br>
+        <label for="gender">Gender:</label> <br>
+        <input type="radio" name="gender" id="gender-m"> Male <br>
+        <input type="radio" name="gender" id="gender-f"> Female <br>
+        <textarea name="texta" id="area" cols="30" rows="10"></textarea> <br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="index.js"></script>
+</body>
+</html>
